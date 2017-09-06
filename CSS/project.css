@@ -1,0 +1,19 @@
+#project h1 {
+	font-size: 1.5em;
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+  margin-top: 25%;
+}
+
+#project h2 {
+	font-size: .8em;
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+  margin-top: 0px;
+}
+
+.description {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 5%;
+  font-weight: lighter;
+}

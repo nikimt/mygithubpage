@@ -1,47 +1,40 @@
 @charset "UTF-8";
 @import url(font-awesome.min.css);
 
-body {
-  color: #383838;
-  font-family: 'Lato', sans-serif;
-  text-align: center;
-  margin-top: 300px;
-  position: relative;
+#niki {
+  color: #292929;
+}
+
+#niki .masthead {
+  background: #292929;
+  height: 100%;
+  width: 100%;
 }
 
 #header {
-/*   text-align: center; */
-/*   margin-top: 10%; */
+  background: #292929;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
 }
 
-#header .name {
+#niki .name {
 /*   color: #383838; */
-  font-size: 5em;
+  font-size: 5.2em;
+  font-family: 'Dosis', sans-serif;
+  margin-top: 42%;
   /*text-decoration: underline;*/
 }
 
-#header nav {
-  margin-top: 100px;
+#niki .job {
+  font-size: 1.2em;
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+  padding-top: 2%;
 }
 
-#header nav > ul {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-  
-}
-
-#header nav > ul > li {
-  display: inline-block;
-  padding: 0;
-  margin: 0;
-  padding: 1em;
-  visibility: hidden;
-/*   text-align: center;   */
-}
-
-#header nav > ul > li a {
-  visibility: visible; !important
+#niki a {
+  visibility: visible;
   -moz-transition: color 0.2s ease-in-out;
   -webkit-transition: color 0.2s ease-in-out;
   -o-transition: color 0.2s ease-in-out;
@@ -49,15 +42,62 @@ body {
   transition: color 0.2s ease-in-out;
   color: #8b8b8b;
   /*#555f66;*/
-  font-size: 2em;
+  /*font-size: 2em;*/
 }
 
-#header nav > ul > li a:hover {
-  color: #c1272d;
+#niki a:hover {
+  color: #ddd;
+  background-color: #292929;
   /*#629DD1;*/
 }
 
-a {
+.module-2 {
+  height: 100%;
+  margin-top: 0px;
+  padding: 10px;
+}
+
+#niki .menu {
+  margin-top: 10%;
+  background-color: #292929
+}
+
+#niki .menu p {
+  visibility: hidden;
+}
+
+#niki .item {
   color: #8b8b8b;
-  text-decoration: none;
+}
+
+#niki h2 {
+  color: #C32427;
+  padding: 10% 0% 0% 10%;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 10em;
+  margin-bottom: 0px;
+}
+
+#niki h4 {
+  color: #C32427;
+  padding: 0% 10%;
+  font-size: 3em;
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+  margin-top: 0px;
+}
+
+#niki .grid p {
+  padding: 0% 10%;
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+  font-size: 1.2em;
+}
+
+.test-class {
+  padding: 10%;
+}
+
+#project1info {
+  visibility: hidden;
 }

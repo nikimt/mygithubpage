@@ -1,0 +1,107 @@
+@charset "UTF-8";
+@import url(font-awesome.min.css);
+
+#niki {
+  color: #292929;
+}
+
+#niki .masthead {
+  background: #292929;
+  height: 100%;
+  width: 100%;
+}
+
+#header {
+  background: #292929;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+#niki .name {
+/*   color: #383838; */
+  font-size: 5.2em;
+  font-family: 'Dosis', sans-serif;
+  margin-top: 42%;
+  /*text-decoration: underline;*/
+}
+
+#niki .job {
+  font-size: 1.2em;
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+  padding-top: 2%;
+}
+
+#niki a {
+  visibility: visible;
+  -moz-transition: color 0.2s ease-in-out;
+  -webkit-transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
+  -ms-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+  color: #8b8b8b;
+  /*#555f66;*/
+  /*font-size: 2em;*/
+}
+
+#niki a:hover {
+  color: #ddd;
+  /*background-color: #292929;*/
+  /*#629DD1;*/
+}
+
+.module-2 {
+  height: 100%;
+  margin-top: 0px;
+  padding: 10px;
+}
+
+#niki .menu {
+  margin-top: 10%;
+  background-color: #292929
+}
+
+#niki .menu p {
+  visibility: hidden;
+}
+
+#niki .item {
+  color: #8b8b8b;
+}
+
+#niki h2 {
+  color: #C32427;
+  padding: 10% 0% 0% 10%;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 10em;
+  margin-bottom: 0px;
+}
+
+#niki h4 {
+  color: #C32427;
+  padding: 0% 10%;
+  font-size: 3em;
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+  margin-top: 0px;
+}
+
+#niki .grid p {
+  padding: 0% 10%;
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+  font-size: 1.2em;
+}
+
+#niki-header p {
+  margin-top: 20%;
+}
+
+.test-class {
+  padding: 10%;
+}
+
+#project1info {
+  visibility: hidden;
+}

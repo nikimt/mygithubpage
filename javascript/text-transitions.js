@@ -117,7 +117,7 @@ $(document).ready(function() {
 // function drawParticles() {
 //   const y = { [window.innerHeight]: 0 };
   
-//   for(var i=0;i<swirlsNumber;i++){
+//   for(var i=0;i<wirlsNumber;i++){
     
 //     var x = i * window.innerWidth/swirlsNumber;
     

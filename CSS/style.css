@@ -2,7 +2,10 @@
 @import url(font-awesome.min.css);
 
 #niki {
-  color: #292929;
+  /*color: #292929;*/
+  background: #292929;
+  height: 100%;
+  width: 100%;
 }
 
 #niki .masthead {
@@ -27,6 +30,7 @@
 }
 
 #niki .job {
+  color: #fff;
   font-size: 1.2em;
   font-family: 'Lato', sans-serif;
   font-weight: lighter;
